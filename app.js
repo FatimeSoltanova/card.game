@@ -54,7 +54,7 @@ const selectPlayer = () => {
 
 const cardTemplate = (index) => {
   return `
-  <div data-index="${index}" class="border animate__animated border-2 h-[207px] cursor-pointer rounded-lg overflow-hidden">
+  <div data-index="${index}" class="border animate__animated cursor-pointer border-2 h-[207px] cursor-pointer rounded-lg overflow-hidden">
       <img src="./card.png" class=" size-full object-cover" alt="card">
   </div>
   `;
